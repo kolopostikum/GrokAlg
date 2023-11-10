@@ -1,0 +1,11 @@
+D:\GrokAlg\SearchAlg\bin\Debug\net7.0\SearchAlg.deps.json
+D:\GrokAlg\SearchAlg\bin\Debug\net7.0\SearchAlg.dll
+D:\GrokAlg\SearchAlg\bin\Debug\net7.0\SearchAlg.pdb
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.GeneratedMSBuildEditorConfig.editorconfig
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.AssemblyInfoInputs.cache
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.AssemblyInfo.cs
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.csproj.CoreCompileInputs.cache
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.dll
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\refint\SearchAlg.dll
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.pdb
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\ref\SearchAlg.dll

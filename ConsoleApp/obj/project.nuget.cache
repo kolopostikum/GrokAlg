@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NTfZebYGUPCBKmwCtjgV2z/BbkFwaHPzZc+ad36GsQ1y75J2jtrNZ0W/0zTRO7bzgDRtaKC9Hc5b8lZ0HEhjnA==",
+  "dgSpecHash": "l8Nzg1A+TAJBjyzGireNy/jzjOabs/2WB5GzUkUMSirx2C/MFbsiUtRkX/0e8iBZESZ5h4EO6YVPus0P40gCUg==",
   "success": true,
-  "projectFilePath": "d:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "D:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

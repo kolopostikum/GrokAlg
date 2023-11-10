@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "d:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "d:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "D:\\GrokAlg\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\nikal\\.nuget\\packages\\",
-        "outputPath": "d:\\GrokAlg\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\GrokAlg\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "d:\\GrokAlg\\SearchAlg\\SearchAlg.csproj": {
-                "projectPath": "d:\\GrokAlg\\SearchAlg\\SearchAlg.csproj"
+              "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj": {
+                "projectPath": "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "d:\\GrokAlg\\SearchAlg\\SearchAlg.csproj": {
+    "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GrokAlg\\SearchAlg\\SearchAlg.csproj",
+        "projectUniqueName": "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj",
         "projectName": "SearchAlg",
-        "projectPath": "d:\\GrokAlg\\SearchAlg\\SearchAlg.csproj",
+        "projectPath": "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj",
         "packagesPath": "C:\\Users\\nikal\\.nuget\\packages\\",
-        "outputPath": "d:\\GrokAlg\\SearchAlg\\obj\\",
+        "outputPath": "D:\\GrokAlg\\SearchAlg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikal\\AppData\\Roaming\\NuGet\\NuGet.Config"

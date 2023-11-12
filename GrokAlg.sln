@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAlg", "SearchAlg\SearchAlg.csproj", "{14449276-8911-4087-8302-DCBC1C9DABC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlg", "SortAlg\SortAlg.csproj", "{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,5 +30,9 @@ Global
 		{14449276-8911-4087-8302-DCBC1C9DABC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14449276-8911-4087-8302-DCBC1C9DABC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14449276-8911-4087-8302-DCBC1C9DABC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

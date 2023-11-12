@@ -1,0 +1,11 @@
+D:\GrokAlg\SortAlg\bin\Debug\net7.0\SortAlg.deps.json
+D:\GrokAlg\SortAlg\bin\Debug\net7.0\SortAlg.dll
+D:\GrokAlg\SortAlg\bin\Debug\net7.0\SortAlg.pdb
+D:\GrokAlg\SortAlg\obj\Debug\net7.0\SortAlg.GeneratedMSBuildEditorConfig.editorconfig
+D:\GrokAlg\SortAlg\obj\Debug\net7.0\SortAlg.AssemblyInfoInputs.cache
+D:\GrokAlg\SortAlg\obj\Debug\net7.0\SortAlg.AssemblyInfo.cs
+D:\GrokAlg\SortAlg\obj\Debug\net7.0\SortAlg.csproj.CoreCompileInputs.cache
+D:\GrokAlg\SortAlg\obj\Debug\net7.0\SortAlg.dll
+D:\GrokAlg\SortAlg\obj\Debug\net7.0\refint\SortAlg.dll
+D:\GrokAlg\SortAlg\obj\Debug\net7.0\SortAlg.pdb
+D:\GrokAlg\SortAlg\obj\Debug\net7.0\ref\SortAlg.dll

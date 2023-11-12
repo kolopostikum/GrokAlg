@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/SearchAlg.dll": {}
         }
+      },
+      "SortAlg/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SortAlg.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SortAlg.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../SearchAlg/SearchAlg.csproj",
       "msbuildProject": "../SearchAlg/SearchAlg.csproj"
+    },
+    "SortAlg/1.0.0": {
+      "type": "project",
+      "path": "../SortAlg/SortAlg.csproj",
+      "msbuildProject": "../SortAlg/SortAlg.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "SearchAlg >= 1.0.0"
+      "SearchAlg >= 1.0.0",
+      "SortAlg >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,6 +69,9 @@
           "projectReferences": {
             "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj": {
               "projectPath": "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj"
+            },
+            "D:\\GrokAlg\\SortAlg\\SortAlg.csproj": {
+              "projectPath": "D:\\GrokAlg\\SortAlg\\SortAlg.csproj"
             }
           }
         }

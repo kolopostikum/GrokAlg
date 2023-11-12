@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using SearchAlg;
+using SortAlg;
 
 namespace ConsoleApp;
 
@@ -9,7 +10,19 @@ public class Program
 {
     public static void Main()
     {
-        BinarySearchTest();
+        //BinarySearchTest();
+        SelectionSortTest();
+    }
+
+    private static void SelectionSortTest()
+    {
+        int[] testArr = {1, 3, 5, 7, 9};
+        List<int> testList = new List<int>(testArr);
+        
+        foreach(var val in testList)
+        {
+            Console.Write(val + " ");
+        }
     }
 
     private static void BinarySearchTest()

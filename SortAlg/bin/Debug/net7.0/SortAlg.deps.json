@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "SortAlg/1.0.0": {
+        "dependencies": {
+          "SearchAlg": "1.0.0"
+        },
         "runtime": {
           "SortAlg.dll": {}
+        }
+      },
+      "SearchAlg/1.0.0": {
+        "runtime": {
+          "SearchAlg.dll": {}
         }
       }
     }
   },
   "libraries": {
     "SortAlg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SearchAlg/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

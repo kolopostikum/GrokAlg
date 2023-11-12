@@ -21,6 +21,9 @@
         }
       },
       "SortAlg/1.0.0": {
+        "dependencies": {
+          "SearchAlg": "1.0.0"
+        },
         "runtime": {
           "SortAlg.dll": {}
         }

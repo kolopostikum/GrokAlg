@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAlg", "SearchAlg\Sear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlg", "SortAlg\SortAlg.csproj", "{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveAlg", "RecursiveAlg\RecursiveAlg.csproj", "{9B3AC081-A475-4EE7-B15C-EB2B1FD2E9D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,5 +36,9 @@ Global
 		{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E97130F-52A3-4CF8-A832-FE60BE36E2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3AC081-A475-4EE7-B15C-EB2B1FD2E9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3AC081-A475-4EE7-B15C-EB2B1FD2E9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3AC081-A475-4EE7-B15C-EB2B1FD2E9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3AC081-A475-4EE7-B15C-EB2B1FD2E9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

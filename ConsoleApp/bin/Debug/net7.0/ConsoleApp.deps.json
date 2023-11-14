@@ -8,11 +8,17 @@
     ".NETCoreApp,Version=v7.0": {
       "ConsoleApp/1.0.0": {
         "dependencies": {
+          "RecursiveAlg": "1.0.0",
           "SearchAlg": "1.0.0",
           "SortAlg": "1.0.0"
         },
         "runtime": {
           "ConsoleApp.dll": {}
+        }
+      },
+      "RecursiveAlg/1.0.0": {
+        "runtime": {
+          "RecursiveAlg.dll": {}
         }
       },
       "SearchAlg/1.0.0": {
@@ -32,6 +38,11 @@
   },
   "libraries": {
     "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RecursiveAlg/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

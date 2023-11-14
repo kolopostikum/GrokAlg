@@ -18,3 +18,5 @@ D:\GrokAlg\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.AssemblyReference.cache
 D:\GrokAlg\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CopyComplete
 D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\SortAlg.dll
 D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\SortAlg.pdb
+D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\RecursiveAlg.dll
+D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\RecursiveAlg.pdb

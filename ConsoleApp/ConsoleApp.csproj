@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SearchAlg\SearchAlg.csproj" />
     <ProjectReference Include="..\SortAlg\SortAlg.csproj" />
+    <ProjectReference Include="..\RecursiveAlg\RecursiveAlg.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

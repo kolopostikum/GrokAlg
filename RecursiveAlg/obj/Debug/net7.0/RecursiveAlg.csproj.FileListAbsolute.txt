@@ -1,0 +1,11 @@
+D:\GrokAlg\RecursiveAlg\bin\Debug\net7.0\RecursiveAlg.deps.json
+D:\GrokAlg\RecursiveAlg\bin\Debug\net7.0\RecursiveAlg.dll
+D:\GrokAlg\RecursiveAlg\bin\Debug\net7.0\RecursiveAlg.pdb
+D:\GrokAlg\RecursiveAlg\obj\Debug\net7.0\RecursiveAlg.GeneratedMSBuildEditorConfig.editorconfig
+D:\GrokAlg\RecursiveAlg\obj\Debug\net7.0\RecursiveAlg.AssemblyInfoInputs.cache
+D:\GrokAlg\RecursiveAlg\obj\Debug\net7.0\RecursiveAlg.AssemblyInfo.cs
+D:\GrokAlg\RecursiveAlg\obj\Debug\net7.0\RecursiveAlg.csproj.CoreCompileInputs.cache
+D:\GrokAlg\RecursiveAlg\obj\Debug\net7.0\RecursiveAlg.dll
+D:\GrokAlg\RecursiveAlg\obj\Debug\net7.0\refint\RecursiveAlg.dll
+D:\GrokAlg\RecursiveAlg\obj\Debug\net7.0\RecursiveAlg.pdb
+D:\GrokAlg\RecursiveAlg\obj\Debug\net7.0\ref\RecursiveAlg.dll

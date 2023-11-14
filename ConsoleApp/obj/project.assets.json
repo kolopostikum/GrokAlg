@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "RecursiveAlg/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/RecursiveAlg.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RecursiveAlg.dll": {}
+        }
+      },
       "SearchAlg/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -28,6 +38,11 @@
     }
   },
   "libraries": {
+    "RecursiveAlg/1.0.0": {
+      "type": "project",
+      "path": "../RecursiveAlg/RecursiveAlg.csproj",
+      "msbuildProject": "../RecursiveAlg/RecursiveAlg.csproj"
+    },
     "SearchAlg/1.0.0": {
       "type": "project",
       "path": "../SearchAlg/SearchAlg.csproj",
@@ -41,6 +56,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "RecursiveAlg >= 1.0.0",
       "SearchAlg >= 1.0.0",
       "SortAlg >= 1.0.0"
     ]
@@ -70,6 +86,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\GrokAlg\\RecursiveAlg\\RecursiveAlg.csproj": {
+              "projectPath": "D:\\GrokAlg\\RecursiveAlg\\RecursiveAlg.csproj"
+            },
             "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj": {
               "projectPath": "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj"
             },

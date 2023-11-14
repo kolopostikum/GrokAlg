@@ -26,13 +26,16 @@ namespace SortAlg
         {
             if (values.Count == 0 || values.Count == 1)
                 return values;
-                
+
             var pivot = values.FirstOrDefault();
-            var less = values.Where(x => x.CompareTo(pivot) <= 0).ToList();
+            var less = values.Where(x => x.CompareTo(pivot) < 0).ToList();
+            var equals = values.Where(x => x.CompareTo(pivot) == 0).ToList();
             var greater = values.Where(x => x.CompareTo(pivot) > 0).ToList();
-            
+            equals.RemoveAt(0);
+
             var subResult = QuickSortRecursionFunc(less);
             subResult.Add(pivot);
+            subResult.AddRange(equals);
             subResult.AddRange(QuickSortRecursionFunc(greater));
             
             return subResult; 

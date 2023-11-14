@@ -17,7 +17,7 @@ public class Program
         //TestCoses.RecursiveSummArrayTest();
         //TestCoses.RecursiveCountElementArrayTest();
         //TestCoses.RecursiveSearchMaxElementTest();
-        
+        TestCoses.QuickSortTest();
     }
 
     internal static class TestCoses
@@ -27,6 +27,7 @@ public class Program
             var max = RecursiveSearchMaxElement
                     .RecursiveSearchMaxElementFunc
                     (new[] {1, 2 , 3, 4, 5, -2, 4, 2, 1});
+                    
             Console.WriteLine(max);
         }
 
@@ -59,6 +60,18 @@ public class Program
             var testArr = new[] {1, 3, 5, 7, 9};
             Console.WriteLine(BinarySearch<int>.BinarySearchFunc(1, testArr));
             Console.WriteLine(BinarySearch<int>.BinarySearchFunc(4, testArr));
+        }
+
+        public static void QuickSortTest()
+        {
+            var sortedList = QuickSort<int>
+                    .QuickSortRecursionFunc
+                    (new[] {1, 2 , 3, 4, 5, -2, 4, 2, 1}.ToList());
+            foreach (var item in sortedList)
+            {
+                Console.Write(item);
+                Console.Write("||");
+            }
         }
     }
 }

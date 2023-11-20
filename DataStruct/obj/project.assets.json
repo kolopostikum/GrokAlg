@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj",
-      "projectName": "SearchAlg",
-      "projectPath": "D:\\GrokAlg\\SearchAlg\\SearchAlg.csproj",
+      "projectUniqueName": "D:\\GrokAlg\\DataStruct\\DataStruct.csproj",
+      "projectName": "DataStruct",
+      "projectPath": "D:\\GrokAlg\\DataStruct\\DataStruct.csproj",
       "packagesPath": "C:\\Users\\nikal\\.nuget\\packages\\",
-      "outputPath": "D:\\GrokAlg\\SearchAlg\\obj\\",
+      "outputPath": "D:\\GrokAlg\\DataStruct\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikal\\AppData\\Roaming\\NuGet\\NuGet.Config"

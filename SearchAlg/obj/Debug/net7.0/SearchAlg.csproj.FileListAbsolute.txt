@@ -9,3 +9,7 @@ D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.dll
 D:\GrokAlg\SearchAlg\obj\Debug\net7.0\refint\SearchAlg.dll
 D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.pdb
 D:\GrokAlg\SearchAlg\obj\Debug\net7.0\ref\SearchAlg.dll
+D:\GrokAlg\SearchAlg\bin\Debug\net7.0\DataStruct.dll
+D:\GrokAlg\SearchAlg\bin\Debug\net7.0\DataStruct.pdb
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.csproj.AssemblyReference.cache
+D:\GrokAlg\SearchAlg\obj\Debug\net7.0\SearchAlg.csproj.CopyComplete

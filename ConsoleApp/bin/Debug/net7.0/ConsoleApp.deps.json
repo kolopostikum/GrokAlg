@@ -16,12 +16,20 @@
           "ConsoleApp.dll": {}
         }
       },
+      "DataStruct/1.0.0": {
+        "runtime": {
+          "DataStruct.dll": {}
+        }
+      },
       "RecursiveAlg/1.0.0": {
         "runtime": {
           "RecursiveAlg.dll": {}
         }
       },
       "SearchAlg/1.0.0": {
+        "dependencies": {
+          "DataStruct": "1.0.0"
+        },
         "runtime": {
           "SearchAlg.dll": {}
         }
@@ -38,6 +46,11 @@
   },
   "libraries": {
     "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataStruct/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -20,3 +20,5 @@ D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\SortAlg.dll
 D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\SortAlg.pdb
 D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\RecursiveAlg.dll
 D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\RecursiveAlg.pdb
+D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\DataStruct.dll
+D:\GrokAlg\ConsoleApp\bin\Debug\net7.0\DataStruct.pdb

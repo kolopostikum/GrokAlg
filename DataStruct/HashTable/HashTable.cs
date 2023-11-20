@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Numerics;
 using System.Threading.Tasks;
@@ -10,20 +11,17 @@ namespace DataStruct.HashTable
     {
         private LinkedList<T>[] hashArray;
         private int fullness;
-        private Func<T, int> GetHashCodeLocal;
 
-        public HashTable(Func<T, int> GetHashCode)
+        public HashTable()
         {
             hashArray = new LinkedList<T>[100];
             fullness = 0;
-            this.GetHashCodeLocal = GetHashCode;
         }
 
-        public HashTable(IEnumerable<T> values, Func<T, int> GetHashCode)
+        public HashTable(IEnumerable<T> values)
         {
             hashArray = new LinkedList<T>[values.Count()];
             fullness = 0;
-            this.GetHashCodeLocal = GetHashCode;
             foreach (var value in values)
                 AddValueToHash(value);
         }
@@ -32,7 +30,7 @@ namespace DataStruct.HashTable
         {
             if (fullness / hashArray.Length > 0.7)
                 AddEmptyCells();
-            var index = this.GetHashCodeLocal(value);
+            var index = value.GetHashCode();
             if (hashArray[index] == null)
             {
                 hashArray[index] = new LinkedList<T>();
@@ -54,6 +52,20 @@ namespace DataStruct.HashTable
             var newHashArray = new LinkedList<T>[hashArray.Length * 2];
             hashArray.CopyTo(newHashArray, 0);
             hashArray = newHashArray;
+        }
+
+        public LinkedList<T> this[T key]
+        {
+            get { return hashArray[key.GetHashCode()]; }
+        }
+
+        public bool Contains(T key) 
+        {
+            if (hashArray.Length <= key.GetHashCode())
+                return false;
+            if (hashArray[key.GetHashCode()] == null)
+                return false;
+            return true;
         }
     }
 }

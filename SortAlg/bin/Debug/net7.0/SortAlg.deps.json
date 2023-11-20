@@ -14,7 +14,15 @@
           "SortAlg.dll": {}
         }
       },
+      "DataStruct/1.0.0": {
+        "runtime": {
+          "DataStruct.dll": {}
+        }
+      },
       "SearchAlg/1.0.0": {
+        "dependencies": {
+          "DataStruct": "1.0.0"
+        },
         "runtime": {
           "SearchAlg.dll": {}
         }
@@ -23,6 +31,11 @@
   },
   "libraries": {
     "SortAlg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataStruct/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

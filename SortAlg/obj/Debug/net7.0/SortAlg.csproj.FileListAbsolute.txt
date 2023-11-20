@@ -13,3 +13,5 @@ D:\GrokAlg\SortAlg\bin\Debug\net7.0\SearchAlg.dll
 D:\GrokAlg\SortAlg\bin\Debug\net7.0\SearchAlg.pdb
 D:\GrokAlg\SortAlg\obj\Debug\net7.0\SortAlg.csproj.AssemblyReference.cache
 D:\GrokAlg\SortAlg\obj\Debug\net7.0\SortAlg.csproj.CopyComplete
+D:\GrokAlg\SortAlg\bin\Debug\net7.0\DataStruct.dll
+D:\GrokAlg\SortAlg\bin\Debug\net7.0\DataStruct.pdb

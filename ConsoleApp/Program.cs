@@ -5,6 +5,7 @@ using SearchAlg;
 using SortAlg;
 using RecursiveAlg;
 using RecursiveAlg.RecursiveSummArray;
+using SearchAlg.SearchWidth;
 
 namespace ConsoleApp;
 
@@ -17,7 +18,8 @@ public class Program
         //TestCoses.RecursiveSummArrayTest();
         //TestCoses.RecursiveCountElementArrayTest();
         //TestCoses.RecursiveSearchMaxElementTest();
-        TestCoses.QuickSortTest();
+        //TestCoses.QuickSortTest();
+        TestCoses.BFSTest();
     }
 
     internal static class TestCoses
@@ -72,6 +74,20 @@ public class Program
                 Console.Write(item);
                 Console.Write("||");
             }
+        }
+
+        public static void BFSTest()
+        {
+            var testCose = new List<LinkedList<int>> 
+            {
+                {new LinkedList<int>(new[] {1, 2, 3})},
+                {new LinkedList<int>(new[] {2, 4, 1})},
+                {new LinkedList<int>(new[] {4, 6, 7})}
+            };
+            BFS<int> testBFS = new BFS<int>(testCose);
+            Console.Write(testBFS.BRSFunc(1, 1) + " ");            
+            Console.WriteLine(testBFS.BRSFunc(1, 7) + " ");
+            Console.WriteLine(testBFS.BRSFunc(1, 4));
         }
     }
 }

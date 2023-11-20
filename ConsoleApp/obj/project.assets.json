@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "DataStruct/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DataStruct.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataStruct.dll": {}
+        }
+      },
       "RecursiveAlg/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -15,6 +25,9 @@
       "SearchAlg/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataStruct": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SearchAlg.dll": {}
         },
@@ -38,6 +51,11 @@
     }
   },
   "libraries": {
+    "DataStruct/1.0.0": {
+      "type": "project",
+      "path": "../DataStruct/DataStruct.csproj",
+      "msbuildProject": "../DataStruct/DataStruct.csproj"
+    },
     "RecursiveAlg/1.0.0": {
       "type": "project",
       "path": "../RecursiveAlg/RecursiveAlg.csproj",

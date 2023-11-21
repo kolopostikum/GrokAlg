@@ -85,9 +85,10 @@ public class Program
                 {new LinkedList<int>(new[] {4, 6, 7})}
             };
             BFS<int> testBFS = new BFS<int>(testCose);
-            Console.Write(testBFS.BRSFunc(1, 1) + " ");            
-            Console.WriteLine(testBFS.BRSFunc(1, 7) + " ");
-            Console.WriteLine(testBFS.BRSFunc(1, 4));
+            var steps = testBFS.BRSFunc(1);
+            Console.Write(steps[1] + " ");            
+            Console.WriteLine(steps[7] + " ");
+            Console.WriteLine(steps[4]);
         }
     }
 }

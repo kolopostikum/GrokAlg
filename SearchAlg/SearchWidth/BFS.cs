@@ -26,27 +26,26 @@ namespace SearchAlg.SearchWidth
             }
         }
 
-        public int BRSFunc(T start, T end)
+        public Dictionary<T,int> BRSFunc(T start)
         {
             var queue = new Queue<T>();
-            var steps = 0;
             HashTable<T> checkedNodes = new HashTable<T>();
+            Dictionary<T, int> steps = new Dictionary<T, int>();
             queue.Enqueue(start);
             checkedNodes.AddValueToHash(start);
+            steps.Add(start, 0);
             while (queue.Any())
             {
                 var actualNode = queue.Dequeue();
-                if (actualNode.Equals(end))
-                    return steps;
-                steps++;
                 foreach (var value in hashTable[actualNode])
                     if (!checkedNodes.Contains(value))
                     {
                         queue.Enqueue(value);
                         checkedNodes.AddValueToHash(value);
+                        steps.Add(value, steps[actualNode] + 1);
                     }       
             }
-            return -1;
+            return steps;
         }
     }
 }

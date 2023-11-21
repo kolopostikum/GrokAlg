@@ -6,6 +6,7 @@ using SortAlg;
 using RecursiveAlg;
 using RecursiveAlg.RecursiveSummArray;
 using SearchAlg.SearchWidth;
+using SearchAlg.DijkstraSearch;
 
 namespace ConsoleApp;
 
@@ -19,7 +20,8 @@ public class Program
         //TestCoses.RecursiveCountElementArrayTest();
         //TestCoses.RecursiveSearchMaxElementTest();
         //TestCoses.QuickSortTest();
-        TestCoses.BFSTest();
+        //TestCoses.BFSTest();
+        //TestCoses.DijkstraTest();
     }
 
     internal static class TestCoses
@@ -89,6 +91,23 @@ public class Program
             Console.Write(steps[1] + " ");            
             Console.WriteLine(steps[7] + " ");
             Console.WriteLine(steps[4]);
+        }
+
+        internal static void DijkstraTest()
+        {
+            var testCose = new List<(string, string, int)> 
+            {
+                new ("a", "b" , 3),
+                new ("a", "c" , 10),                
+                new ("a", "d" , 3),
+                new ("d", "c" , 3),
+                new ("c", "e" , 7),
+                new ("b", "c" , 3)
+            };
+            DijkstraClass<string> testCase = new DijkstraClass<string>(testCose);  
+            Console.Write(testCase.DijkstraSearch("a", "e") + " ");            
+            Console.WriteLine(testCase.DijkstraSearch("a", "b"));
+            Console.WriteLine(testCase.DijkstraSearch("a", "a"));
         }
     }
 }

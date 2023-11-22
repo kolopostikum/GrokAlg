@@ -7,6 +7,8 @@ using RecursiveAlg;
 using RecursiveAlg.RecursiveSummArray;
 using SearchAlg.SearchWidth;
 using SearchAlg.DijkstraSearch;
+using System.Runtime.InteropServices;
+using SearchAlg.Greedy;
 
 namespace ConsoleApp;
 
@@ -22,6 +24,7 @@ public class Program
         //TestCoses.QuickSortTest();
         //TestCoses.BFSTest();
         //TestCoses.DijkstraTest();
+        TestCoses.Greedy();
     }
 
     internal static class TestCoses
@@ -108,6 +111,27 @@ public class Program
             Console.Write(testCase.DijkstraSearch("a", "e") + " ");            
             Console.WriteLine(testCase.DijkstraSearch("a", "b"));
             Console.WriteLine(testCase.DijkstraSearch("a", "a"));
+        }
+
+        internal static void Greedy()
+        {
+            var testStats = new HashSet<string>
+            {
+                "mt", "wa", "or", "id",
+                "nv", "ut", "ca", "az"
+            };
+            var testStations = new Dictionary<string, HashSet<string>>();
+            testStations["Kone"] = new HashSet<string>{"id", "nv", "ut"};
+            testStations["ktwo"] = new HashSet<string>{"wa", "id", "mt"};
+            testStations["kthree"] = new HashSet<string>{"or", "nv", "ca"};
+            testStations["kfour"] = new HashSet<string>{"nv", "ut"};
+            testStations["kfive"] = new HashSet<string>{"ca", "az"};
+            
+            var greedyTest = new GreedyStation<string, string>(testStats, testStations);
+            foreach (var station in greedyTest.GreedyStationsSearch())
+            {
+                Console.Write(station + " ");
+            }
         }
     }
 }

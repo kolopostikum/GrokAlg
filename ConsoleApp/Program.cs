@@ -24,7 +24,8 @@ public class Program
         //TestCoses.QuickSortTest();
         //TestCoses.BFSTest();
         //TestCoses.DijkstraTest();
-        TestCoses.Greedy();
+        //TestCoses.Greedy();
+        TestCoses.Dinamic();
     }
 
     internal static class TestCoses
@@ -132,6 +133,17 @@ public class Program
             {
                 Console.Write(station + " ");
             }
+        }
+
+        internal static void Dinamic()
+        {
+            var testCose1 = new List<int> {1, 1, 5};
+            var testCose2 = new List<int> {2, 2, 3, 7};
+            var testCose3 = new List<int> {10, 7, 12};
+
+            Console.WriteLine(SearchAlg.DinamicSearch.EqualsFromHackerrank.Equal(testCose1));
+            Console.WriteLine(SearchAlg.DinamicSearch.EqualsFromHackerrank.Equal(testCose2));
+            Console.WriteLine(SearchAlg.DinamicSearch.EqualsFromHackerrank.Equal(testCose3));
         }
     }
 }
